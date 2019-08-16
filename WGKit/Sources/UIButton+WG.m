@@ -74,4 +74,20 @@
     };
 }
 
+- (UIButton* (^)(UIColor* backgroundColor))wg_backgroundColor
+{
+    return ^(UIColor* backgroundColor) {
+        self.backgroundColor = backgroundColor;
+        return self;
+    };
+}
+
+- (UIButton* (^)(void))wg_sizeToFit
+{
+    return ^() {
+        [self sizeToFit];
+        return self;
+    };
+}
+
 @end

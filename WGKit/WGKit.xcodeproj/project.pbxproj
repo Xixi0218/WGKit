@@ -15,6 +15,7 @@
 		046E6A5023066F60004F1DB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E6A4F23066F60004F1DB9 /* main.m */; };
 		046E6A62230671D9004F1DB9 /* UILabel+WG.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E6A5E230671D9004F1DB9 /* UILabel+WG.m */; };
 		046E6A63230671D9004F1DB9 /* UIButton+WG.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E6A60230671D9004F1DB9 /* UIButton+WG.m */; };
+		046E6A66230673A8004F1DB9 /* UIView+WG.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E6A65230673A8004F1DB9 /* UIView+WG.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		046E6A5F230671D9004F1DB9 /* UIButton+WG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WG.h"; sourceTree = "<group>"; };
 		046E6A60230671D9004F1DB9 /* UIButton+WG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WG.m"; sourceTree = "<group>"; };
 		046E6A61230671D9004F1DB9 /* UILabel+WG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WG.h"; sourceTree = "<group>"; };
+		046E6A64230673A8004F1DB9 /* UIView+WG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WG.h"; sourceTree = "<group>"; };
+		046E6A65230673A8004F1DB9 /* UIView+WG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WG.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +84,12 @@
 		046E6A5D230671D9004F1DB9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				046E6A5E230671D9004F1DB9 /* UILabel+WG.m */,
 				046E6A5F230671D9004F1DB9 /* UIButton+WG.h */,
 				046E6A60230671D9004F1DB9 /* UIButton+WG.m */,
 				046E6A61230671D9004F1DB9 /* UILabel+WG.h */,
+				046E6A5E230671D9004F1DB9 /* UILabel+WG.m */,
+				046E6A64230673A8004F1DB9 /* UIView+WG.h */,
+				046E6A65230673A8004F1DB9 /* UIView+WG.m */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -163,6 +168,7 @@
 				046E6A63230671D9004F1DB9 /* UIButton+WG.m in Sources */,
 				046E6A5023066F60004F1DB9 /* main.m in Sources */,
 				046E6A62230671D9004F1DB9 /* UILabel+WG.m in Sources */,
+				046E6A66230673A8004F1DB9 /* UIView+WG.m in Sources */,
 				046E6A4223066F5F004F1DB9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

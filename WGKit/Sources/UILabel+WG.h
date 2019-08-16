@@ -15,10 +15,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (UILabel* (^)(UIFont* font))wg_font;
 - (UILabel* (^)(UIColor* textColor))wg_textColor;
 - (UILabel* (^)(NSString* text))wg_text;
-- (UILabel* (^)(CGRect frame))wg_frame;
 - (UILabel* (^)(NSTextAlignment textAlignment))wg_textAlignment;
 - (UILabel* (^)(NSInteger numberOfLines))wg_numberOfLines;
 - (UILabel* (^)(NSAttributedString *attributedText))wg_attributedText;
+- (UILabel* (^)(CGRect frame))wg_frame;
+- (UILabel* (^)(UIColor* backgroundColor))wg_backgroundColor;
+- (UILabel* (^)(void))wg_sizeToFit;
 @end
 
 NS_ASSUME_NONNULL_END

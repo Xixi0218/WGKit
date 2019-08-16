@@ -41,14 +41,6 @@
     };
 }
 
-- (UILabel* (^)(CGRect frame))wg_frame
-{
-    return ^(CGRect frame) {
-        self.frame = frame;
-        return self;
-    };
-}
-
 - (UILabel* (^)(NSTextAlignment textAlignment))wg_textAlignment
 {
     return ^(NSTextAlignment textAlignment) {
@@ -69,6 +61,30 @@
 {
     return ^(NSAttributedString* attributedText) {
         self.attributedText = attributedText;
+        return self;
+    };
+}
+
+- (UILabel* (^)(CGRect frame))wg_frame
+{
+    return ^(CGRect frame) {
+        self.frame = frame;
+        return self;
+    };
+}
+
+- (UILabel* (^)(UIColor* backgroundColor))wg_backgroundColor
+{
+    return ^(UIColor* backgroundColor) {
+        self.backgroundColor = backgroundColor;
+        return self;
+    };
+}
+
+- (UILabel* (^)(void))wg_sizeToFit
+{
+    return ^() {
+        [self sizeToFit];
         return self;
     };
 }

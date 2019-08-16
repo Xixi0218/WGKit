@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIButton (WG)
+
 + (UIButton* (^)(UIButtonType type))wg_init;
 - (UIButton* (^)(UIFont* font))wg_font;
 - (UIButton* (^)(NSString* title,UIControlState state))wg_title;
@@ -19,6 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIButton* (^)(UIImage* backgroundImage,UIControlState state))wg_backgroundImage;
 - (UIButton* (^)(NSAttributedString *attributedText,UIControlState state))wg_attributedText;
 - (UIButton* (^)(CGRect frame))wg_frame;
+- (UIButton* (^)(UIColor* backgroundColor))wg_backgroundColor;
+- (UIButton* (^)(void))wg_sizeToFit;
 @end
 
 NS_ASSUME_NONNULL_END
