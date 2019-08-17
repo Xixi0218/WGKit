@@ -16,7 +16,8 @@
 		046E6A62230671D9004F1DB9 /* UILabel+WG.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E6A5E230671D9004F1DB9 /* UILabel+WG.m */; };
 		046E6A63230671D9004F1DB9 /* UIButton+WG.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E6A60230671D9004F1DB9 /* UIButton+WG.m */; };
 		046E6A66230673A8004F1DB9 /* UIView+WG.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E6A65230673A8004F1DB9 /* UIView+WG.m */; };
-		3DD1DAA72307D67A002E6D47 /* UIView+WG_AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1DAA52307D67A002E6D47 /* UIView+WG_AutoLayout.m */; };
+		3DD1DAD5230813AF002E6D47 /* UILayoutGuide+WG_AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1DAD0230813AF002E6D47 /* UILayoutGuide+WG_AutoLayout.m */; };
+		3DD1DAD6230813AF002E6D47 /* UIView+WG_AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1DAD1230813AF002E6D47 /* UIView+WG_AutoLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,9 +37,11 @@
 		046E6A61230671D9004F1DB9 /* UILabel+WG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WG.h"; sourceTree = "<group>"; };
 		046E6A64230673A8004F1DB9 /* UIView+WG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WG.h"; sourceTree = "<group>"; };
 		046E6A65230673A8004F1DB9 /* UIView+WG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WG.m"; sourceTree = "<group>"; };
-		3DD1DAA52307D67A002E6D47 /* UIView+WG_AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WG_AutoLayout.m"; sourceTree = "<group>"; };
-		3DD1DAA62307D67A002E6D47 /* UIView+WG_AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WG_AutoLayout.h"; sourceTree = "<group>"; };
-		3DD1DAA82307D6C6002E6D47 /* WG_AutoLayoutUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WG_AutoLayoutUtilities.h; sourceTree = "<group>"; };
+		3DD1DAD0230813AF002E6D47 /* UILayoutGuide+WG_AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILayoutGuide+WG_AutoLayout.m"; sourceTree = "<group>"; };
+		3DD1DAD1230813AF002E6D47 /* UIView+WG_AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WG_AutoLayout.m"; sourceTree = "<group>"; };
+		3DD1DAD2230813AF002E6D47 /* UIView+WG_AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WG_AutoLayout.h"; sourceTree = "<group>"; };
+		3DD1DAD3230813AF002E6D47 /* UILayoutGuide+WG_AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILayoutGuide+WG_AutoLayout.h"; sourceTree = "<group>"; };
+		3DD1DAD4230813AF002E6D47 /* WG_AutoLayoutUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WG_AutoLayoutUtilities.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +91,11 @@
 		046E6A5D230671D9004F1DB9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3DD1DAA82307D6C6002E6D47 /* WG_AutoLayoutUtilities.h */,
-				3DD1DAA62307D67A002E6D47 /* UIView+WG_AutoLayout.h */,
-				3DD1DAA52307D67A002E6D47 /* UIView+WG_AutoLayout.m */,
+				3DD1DAD3230813AF002E6D47 /* UILayoutGuide+WG_AutoLayout.h */,
+				3DD1DAD0230813AF002E6D47 /* UILayoutGuide+WG_AutoLayout.m */,
+				3DD1DAD2230813AF002E6D47 /* UIView+WG_AutoLayout.h */,
+				3DD1DAD1230813AF002E6D47 /* UIView+WG_AutoLayout.m */,
+				3DD1DAD4230813AF002E6D47 /* WG_AutoLayoutUtilities.h */,
 				046E6A5F230671D9004F1DB9 /* UIButton+WG.h */,
 				046E6A60230671D9004F1DB9 /* UIButton+WG.m */,
 				046E6A61230671D9004F1DB9 /* UILabel+WG.h */,
@@ -172,12 +177,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				046E6A4523066F5F004F1DB9 /* ViewController.m in Sources */,
-				3DD1DAA72307D67A002E6D47 /* UIView+WG_AutoLayout.m in Sources */,
+				3DD1DAD6230813AF002E6D47 /* UIView+WG_AutoLayout.m in Sources */,
 				046E6A63230671D9004F1DB9 /* UIButton+WG.m in Sources */,
 				046E6A5023066F60004F1DB9 /* main.m in Sources */,
 				046E6A62230671D9004F1DB9 /* UILabel+WG.m in Sources */,
 				046E6A66230673A8004F1DB9 /* UIView+WG.m in Sources */,
 				046E6A4223066F5F004F1DB9 /* AppDelegate.m in Sources */,
+				3DD1DAD5230813AF002E6D47 /* UILayoutGuide+WG_AutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5AC5BVG3V5;
 				INFOPLIST_FILE = WGKit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,7 +346,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5AC5BVG3V5;
 				INFOPLIST_FILE = WGKit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
