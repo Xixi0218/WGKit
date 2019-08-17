@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "WGKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.4"
   spec.summary      = "WGKIt"
   spec.description  = <<-DESC
                        轻量级的UIKit的库
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license      = "LICENSE"
 
   spec.author       = { "YeKeyon" => "616115891@qq.com" }
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "8.0"
 
   spec.source       = { :git => "https://github.com/616115891/WGKit.git", :tag => "#{spec.version}" }
 
