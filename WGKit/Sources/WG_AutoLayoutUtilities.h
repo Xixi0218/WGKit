@@ -2,8 +2,8 @@
 //  WG_AutoLayoutUtilities.h
 //  WG_AutoLayoutKit
 //
-//  Created by WG on 17/4/12.
-//  Copyright © 2017年 WG. All rights reserved.
+//  Created by mac on 2019/8/16.
+//  Copyright © 2019 zixuan. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

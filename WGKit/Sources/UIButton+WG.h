@@ -19,7 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIButton* (^)(UIImage* image,UIControlState state))wg_image;
 - (UIButton* (^)(UIImage* backgroundImage,UIControlState state))wg_backgroundImage;
 - (UIButton* (^)(NSAttributedString *attributedText,UIControlState state))wg_attributedText;
-- (UIButton* (^)(UIView* view))wg_joinView;
 @end
 
 NS_ASSUME_NONNULL_END
