@@ -34,4 +34,12 @@
     };
 }
 
+- (UIView* (^)(UIView* view))wg_joinView;
+{
+    return ^(UIView* view) {
+        [view addSubview:self];
+        return self;
+    };
+}
+
 @end

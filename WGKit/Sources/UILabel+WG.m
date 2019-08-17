@@ -65,28 +65,4 @@
     };
 }
 
-- (UILabel* (^)(CGRect frame))wg_frame
-{
-    return ^(CGRect frame) {
-        self.frame = frame;
-        return self;
-    };
-}
-
-- (UILabel* (^)(UIColor* backgroundColor))wg_backgroundColor
-{
-    return ^(UIColor* backgroundColor) {
-        self.backgroundColor = backgroundColor;
-        return self;
-    };
-}
-
-- (UILabel* (^)(void))wg_sizeToFit
-{
-    return ^() {
-        [self sizeToFit];
-        return self;
-    };
-}
-
 @end

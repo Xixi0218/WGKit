@@ -19,9 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIButton* (^)(UIImage* image,UIControlState state))wg_image;
 - (UIButton* (^)(UIImage* backgroundImage,UIControlState state))wg_backgroundImage;
 - (UIButton* (^)(NSAttributedString *attributedText,UIControlState state))wg_attributedText;
-- (UIButton* (^)(CGRect frame))wg_frame;
-- (UIButton* (^)(UIColor* backgroundColor))wg_backgroundColor;
-- (UIButton* (^)(void))wg_sizeToFit;
+- (UIButton* (^)(UIView* view))wg_joinView;
 @end
 
 NS_ASSUME_NONNULL_END

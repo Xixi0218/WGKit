@@ -18,9 +18,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (UILabel* (^)(NSTextAlignment textAlignment))wg_textAlignment;
 - (UILabel* (^)(NSInteger numberOfLines))wg_numberOfLines;
 - (UILabel* (^)(NSAttributedString *attributedText))wg_attributedText;
-- (UILabel* (^)(CGRect frame))wg_frame;
-- (UILabel* (^)(UIColor* backgroundColor))wg_backgroundColor;
-- (UILabel* (^)(void))wg_sizeToFit;
 @end
 
 NS_ASSUME_NONNULL_END

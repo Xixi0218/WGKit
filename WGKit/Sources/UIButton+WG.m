@@ -66,28 +66,4 @@
     };
 }
 
-- (UIButton* (^)(CGRect frame))wg_frame
-{
-    return ^(CGRect frame) {
-        self.frame = frame;
-        return self;
-    };
-}
-
-- (UIButton* (^)(UIColor* backgroundColor))wg_backgroundColor
-{
-    return ^(UIColor* backgroundColor) {
-        self.backgroundColor = backgroundColor;
-        return self;
-    };
-}
-
-- (UIButton* (^)(void))wg_sizeToFit
-{
-    return ^() {
-        [self sizeToFit];
-        return self;
-    };
-}
-
 @end

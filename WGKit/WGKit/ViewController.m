@@ -10,6 +10,7 @@
 #import "UILabel+WG.h"
 #import "UIButton+WG.h"
 #import "UIView+WG.h"
+#import "UIView+WG_AutoLayout.h"
 
 @interface ViewController ()
 
@@ -19,9 +20,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UILabel *label = UILabel.wg_init().wg_font([UIFont systemFontOfSize:14]).wg_textColor([UIColor blackColor]).wg_text(@"1234").wg_text(@"2312312").wg_frame(CGRectMake(100, 100, 30, 40)).wg_backgroundColor([UIColor blueColor]).wg_sizeToFit();
-    label.center = self.view.center;
-    [self.view addSubview:label];
+    UILabel *label = UILabel.wg_init().wg_font([UIFont systemFontOfSize:14]).wg_textColor([UIColor blackColor]).wg_text(@"1234").wg_text(@"2312312");
+    label.wg_backgroundColor([UIColor blueColor]).wg_joinView(self.view).wg_CenterToView(CGPointMake(0, 0),self.view);
 }
 
 
