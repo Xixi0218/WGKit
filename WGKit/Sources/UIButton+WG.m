@@ -66,4 +66,12 @@
     };
 }
 
+- (UIButton* (^)(id target,SEL action,UIControlEvents controlEvents))wg_addAction
+{
+    return ^(id target,SEL action,UIControlEvents controlEvents) {
+        [self addTarget:target action:action forControlEvents:controlEvents];
+        return self;
+    };
+}
+
 @end

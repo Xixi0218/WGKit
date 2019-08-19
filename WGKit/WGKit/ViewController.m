@@ -19,10 +19,16 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     UILabel *label = UILabel.wg_init().wg_font([UIFont systemFontOfSize:14]).wg_textColor([UIColor blackColor]).wg_text(@"1234").wg_text(@"2312312");
     label.wg_backgroundColor([UIColor blueColor]).wg_joinView(self.view).wg_CenterToView(CGPointMake(0, 0),self.view);
+    label.wg_addAction(self,@selector(test));
 }
 
+- (void)test
+{
+    NSLog(@"2222");
+}
 
 @end

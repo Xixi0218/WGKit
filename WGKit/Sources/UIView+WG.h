@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIView* (^)(CGRect frame))wg_frame;
 - (UIView* (^)(UIColor* backgroundColor))wg_backgroundColor;
 - (UIView* (^)(UIView* view))wg_joinView;
+- (UIView* (^)(id target,SEL action))wg_addAction;
 @end
 
 NS_ASSUME_NONNULL_END

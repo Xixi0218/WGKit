@@ -18,6 +18,7 @@
 		046E6A66230673A8004F1DB9 /* UIView+WG.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E6A65230673A8004F1DB9 /* UIView+WG.m */; };
 		3DD1DAD5230813AF002E6D47 /* UILayoutGuide+WG_AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1DAD0230813AF002E6D47 /* UILayoutGuide+WG_AutoLayout.m */; };
 		3DD1DAD6230813AF002E6D47 /* UIView+WG_AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1DAD1230813AF002E6D47 /* UIView+WG_AutoLayout.m */; };
+		3DD1DAFB230A3378002E6D47 /* UITextField+WG.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1DAFA230A3378002E6D47 /* UITextField+WG.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		3DD1DAD2230813AF002E6D47 /* UIView+WG_AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WG_AutoLayout.h"; sourceTree = "<group>"; };
 		3DD1DAD3230813AF002E6D47 /* UILayoutGuide+WG_AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILayoutGuide+WG_AutoLayout.h"; sourceTree = "<group>"; };
 		3DD1DAD4230813AF002E6D47 /* WG_AutoLayoutUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WG_AutoLayoutUtilities.h; sourceTree = "<group>"; };
+		3DD1DAF9230A3378002E6D47 /* UITextField+WG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+WG.h"; sourceTree = "<group>"; };
+		3DD1DAFA230A3378002E6D47 /* UITextField+WG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+WG.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				046E6A5E230671D9004F1DB9 /* UILabel+WG.m */,
 				046E6A64230673A8004F1DB9 /* UIView+WG.h */,
 				046E6A65230673A8004F1DB9 /* UIView+WG.m */,
+				3DD1DAF9230A3378002E6D47 /* UITextField+WG.h */,
+				3DD1DAFA230A3378002E6D47 /* UITextField+WG.m */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -179,6 +184,7 @@
 				046E6A4523066F5F004F1DB9 /* ViewController.m in Sources */,
 				3DD1DAD6230813AF002E6D47 /* UIView+WG_AutoLayout.m in Sources */,
 				046E6A63230671D9004F1DB9 /* UIButton+WG.m in Sources */,
+				3DD1DAFB230A3378002E6D47 /* UITextField+WG.m in Sources */,
 				046E6A5023066F60004F1DB9 /* main.m in Sources */,
 				046E6A62230671D9004F1DB9 /* UILabel+WG.m in Sources */,
 				046E6A66230673A8004F1DB9 /* UIView+WG.m in Sources */,

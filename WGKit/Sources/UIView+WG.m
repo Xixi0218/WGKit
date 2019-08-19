@@ -42,4 +42,14 @@
     };
 }
 
+- (UIView* (^)(id target,SEL action))wg_addAction
+{
+    return ^(id target,SEL action) {
+        self.userInteractionEnabled = YES;
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:target action:action];
+        [self addGestureRecognizer:tap];
+        return self;
+    };
+}
+
 @end
