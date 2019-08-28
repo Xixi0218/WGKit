@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "WGKit"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "WGKIt"
   spec.description  = <<-DESC
                        轻量级的UIKit的库
